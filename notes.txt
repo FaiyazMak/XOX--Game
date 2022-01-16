@@ -1,0 +1,11 @@
+Everything is good for pc...
+but that line after winning thing has to be sorted for media query.
+For now i have done display none for .line when we hit media query...
+i did this coz i was not able to fix position and length that could match after decreasing certain screen width.
+Has to sort this issue
+Also use that same excitement image after winning ...used in actual tut-project.
+Improments that could be made:
+1)make that line work at media queries as well...so that this line thing after winning works in mobile as well.
+2)Use sockets and server to make it online game, to be played with friend who is in remote area.
+3)Properly host it to be able to manage large traffic.
+4)Can use more animations..
