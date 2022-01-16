@@ -4,7 +4,7 @@
 }
 
 nav{
-    height: 65px;
+    height: 8vh;
     background-color: rgb(63, 21, 63);
     color: white;
     display: flex;
@@ -24,7 +24,9 @@ nav ul li{
 .gameContainer{
     display: flex;
     justify-content: center;
-    margin-top: 8vh;
+    padding-top: 8vh;
+    height: 78vh;
+    /* background-color: yellow; */
 }
 
 .container{
@@ -55,6 +57,16 @@ nav ul li{
 
 .imgbox img{
     display: none;
+}
+
+footer{
+    height: 6vh;
+    font-size: 1.2rem;
+    background-color: rgb(63, 21, 63);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Utility classes */
