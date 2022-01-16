@@ -9,7 +9,7 @@ nav{
     color: white;
     display: flex;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding: 0px 12px;
 }
 
@@ -26,13 +26,13 @@ nav ul li{
     justify-content: center;
     padding-top: 8vh;
     height: 78vh;
-    /* background-color: yellow; */
 }
 
 .container{
     display: grid;
-    grid-template-columns: repeat(3,6vw);
-    grid-template-rows: repeat(3,6vw);
+    grid-template-columns: repeat(3,7vw);
+    grid-template-rows: repeat(3,7vw);
+    padding:0px 20px;
 }
 
 .box{
@@ -48,15 +48,37 @@ nav ul li{
 }
 
 .boxtext{
-    font-size: 5vw;
+    font-size: 7vw;
 }
 
 .gameInfo{
     padding: 0 50px;
+    font-size: 1.2rem;
 }
 
+.info{
+    font-size: 2em;
+}
+
+#reset{
+    border: 2px solid black;
+    background-color: rgb(210, 168, 250);
+    font-size: 1.4rem;
+    border-radius: 9px;
+    padding: 3px;
+    margin:20px 20px;
+}
+
+#reset:hover{
+    cursor: pointer;
+    background-color: rgb(201, 146, 252);
+}
+
+
 .imgbox img{
-    display: none;
+    margin-top: 4vh;
+    width: 160px;
+    transition: width 1s ease-in-out;
 }
 
 footer{
@@ -84,4 +106,70 @@ footer{
 
 .br-0{
     border-right: none;
+}
+
+@media only screen and (max-width: 900px){
+    .gameContainer{
+       flex-wrap: wrap;
+    }
+
+    .container{
+        grid-template-columns: repeat(3,10vw);
+        grid-template-rows: repeat(3,10vw);
+    }
+
+    .gameInfo{
+        font-size: 13px;
+    }
+
+    .boxtext{
+        font-size: 8vw;
+    }
+
+    .imgbox img{
+        margin-top: 3vh;
+        width: 120px;
+    }
+
+    #reset{
+        font-size: 1.2rem;
+        border-radius: 9px;
+        padding: 2px;
+        margin:10px 10px;
+    }
+    
+}
+
+@media only screen and (max-width: 550px){
+    .container{
+        grid-template-columns: repeat(3,16vw);
+        grid-template-rows: repeat(3,16vw);
+    }
+
+    .boxtext{
+        font-size: 10vw;
+    }
+
+    .imgbox img{
+        margin-top: 2vh;
+        width: 90px;
+    }
+
+    #reset{
+        font-size: 1.1rem;
+        border-radius: 6px;
+        padding: 2px;
+        margin:8px 8px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .container{
+        grid-template-columns: repeat(3,19vw);
+        grid-template-rows: repeat(3,19vw);
+    }
+
+    .boxtext{
+        font-size: 15vw;
+    }
 }
