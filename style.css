@@ -48,7 +48,7 @@ nav ul li{
 }
 
 .boxtext{
-    font-size: 7vw;
+    font-size: 6vw;
 }
 
 .gameInfo{
@@ -77,7 +77,7 @@ nav ul li{
 
 .imgbox img{
     margin-top: 4vh;
-    width: 160px;
+    width: 0px;
     transition: width 1s ease-in-out;
 }
 
@@ -120,10 +120,11 @@ footer{
 
     .gameInfo{
         font-size: 13px;
+        margin-top: 20px;
     }
 
     .boxtext{
-        font-size: 8vw;
+        font-size: 6vw;
     }
 
     .imgbox img{
@@ -147,7 +148,7 @@ footer{
     }
 
     .boxtext{
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .imgbox img{
@@ -170,6 +171,6 @@ footer{
     }
 
     .boxtext{
-        font-size: 15vw;
+        font-size: 13vw;
     }
 }
